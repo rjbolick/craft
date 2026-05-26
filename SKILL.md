@@ -1,6 +1,7 @@
 ---
 name: craft
 description: "Design judgment for AI-assisted work. Reviews UI/UX, triages quality, and defends against overbuilding through ten sub-commands. Reads PRODUCT.md, DESIGN.md, and FEATURES.md (with Operating Conditions: consequence, environment, user skill level) to calibrate output to actual stakes. Use when the user invokes /craft or $craft, asks to get started, review a design for failure modes, scope, hierarchy, affordance, responsiveness, or quality, or wants to set up design context. Triggers on /craft start, /craft document, /craft features, /craft coach, /craft risk, /craft signal, /craft compose, /craft responsive, /craft scope, /craft ship, \"design review,\" \"what to cut before launch,\" \"is this ready to ship,\" \"does this work on mobile,\" \"users don't know what to click,\" and similar UI/UX evaluation requests."
+user_invocable: true
 ---
 
 # /craft
